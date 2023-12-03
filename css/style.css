@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+#home {
+     background-image: linear-gradient(rgba(165, 33, 33, 0.511) ,rgba(165, 33, 33, 0.511)) ,url(/images/events-heavenly-header.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.nav-links {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+}
+.nav-links a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+.nav-links a:hover {
+    color: red;
+}
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.home-content {
+    padding: 200px 0;
+}
+.home-content h2 {
+    font-size: 60px;
+    text-align: center;
+}
+.home-content p {
+    text-align: center;
+}
+.bars {
+    font-size: 30px;
+    cursor: pointer;
+    transition: .5s;
+}
+.ml {
+    margin-left: 250px;
+}
+
+
+/* section  */
+#sliderDown {
+    background-color: #d62e3399;
+    width: 50%;
+    margin: 100px auto;
+    padding: 20px 0;
+    
+}
+#sliderDown .toggle {
+    color: #fff;
+    cursor: pointer;
+}
+.inner {
+    background-color: #ccc;
+    color: #111;
+    font-size: 16px;
+    display: none;
+}
+
+/* section counter  */
+
+#counter {
+    background-image: linear-gradient(rgba(165, 33, 33, 0.511) ,rgba(165, 33, 33, 0.511)) ,url(/images/invitation-2508607__340.jpg); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 300px;
+    padding: 20px 0;
+}
+.box {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+.row {
+    padding: 60px 0;
+}
+
+/* section contact  */
+
+#contact-us {
+    margin-top: 50px;
+}
+#contact-us .head h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#contact-us .head p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact-us .contact-box p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    text-align: center;
+}
+#contact-us .icons {
+    margin-top: 50px;
+    text-align: center;
+    color: #777;
+}
+#contact-us .icons i {
+    margin-right: 10px;
+}
+#contact-us .icons p:nth-child(2) {
+    color: red;
+}
+.social-links i {
+    padding: 10px ;
+    border: 1px solid #777;
+    margin-right: 10px;
+    color: #777;
+}
+input {
+    padding: 7px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #777;
+}
+textarea {
+    padding: 60px 20px;
+}
+textarea:focus,
+input:focus {
+    outline: none;
+}
+#chars {
+    color: red;
+}
